@@ -7,7 +7,7 @@ spec:
   - name: nginx
     image: nginx
     ports:
-    - containerport: 80
+    - containerports: 80
 
 
   - name: node
