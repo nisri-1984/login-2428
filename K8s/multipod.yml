@@ -7,10 +7,10 @@ spec:
   - name: nginx
     image: nginx
     ports:
-    - containerports: 80
+    - containerport: 80
 
 
   - name: node
     image: rav2krsihna/nodejs-api
     ports:
-    - containerports: 8080
+    - containerport: 8080
